@@ -1,0 +1,17 @@
+1683785315933	geckodriver	INFO	Listening on 127.0.0.1:20854
+1683785316685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--log-level=0" "--remote-debu ... //localhost:8616/,http://[::1]:8616/" "-no-remote" "-profile" "C:\\Users\\cyril\\AppData\\Local\\Temp\\rust_mozprofileEkeV6J"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683785317765	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683785317773	Marionette	INFO	Listening on port 56500
+Read port: 56500
+console.error: "Warning: unrecognized command line flag -log-level\n"
+WebDriver BiDi listening on ws://127.0.0.1:8616
+1683785317999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cyril\\AppData\\Local\\Temp\\rust_mozprofileEkeV6J\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:8616/devtools/browser/048a051c-7a6f-416c-9d5a-36b941380680

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!--<parameter name="browser" value="chrome"></parameter>-->
+	<test name="Test1">
+		<!--<parameter name="browser" value="firefox"></parameter>-->
+		<parameter name="url" value="https://www.qa.saucedemo.com/"></parameter>
+		<classes>
+			<class name="com.testng.parameters.ParametersAnnotationDemo" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="url" value="https://www.stage.saucedemo.com/"></parameter>
+		<classes>
+			<class name="com.testng.parameters.ParametersAnnotationDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.605">
+    <properties></properties>
+
+
+
+            <testcase
+                name="productsHeadingTest"
+                time="5.605"
+                classname="com.tests.Test1">
+            </testcase>
+</testsuite>

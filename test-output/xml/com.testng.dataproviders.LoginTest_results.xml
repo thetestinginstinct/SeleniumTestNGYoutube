@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.318">
+    <properties></properties>
+
+
+
+            <testcase
+                name="loginTest"
+                time="9.138"
+                classname="com.testng.dataproviders.LoginTest">
+            </testcase>
+            <testcase
+                name="loginTest"
+                time="6.512"
+                classname="com.testng.dataproviders.LoginTest">
+            </testcase>
+            <testcase
+                name="loginTest"
+                time="6.668"
+                classname="com.testng.dataproviders.LoginTest">
+            </testcase>
+</testsuite>

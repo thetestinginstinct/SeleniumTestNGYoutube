@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.025">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test4"
+                time="0.005"
+                classname="com.testng.ignore.IgnoreTest2">
+            </testcase>
+            <testcase
+                name="test5"
+                time="0.008"
+                classname="com.testng.ignore.IgnoreTest2">
+            </testcase>
+            <testcase
+                name="test6"
+                time="0.012"
+                classname="com.testng.ignore.IgnoreTest2">
+            </testcase>
+</testsuite>
