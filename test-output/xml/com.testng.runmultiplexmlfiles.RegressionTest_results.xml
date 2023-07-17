@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.006">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testSix"
+                time="0.002"
+                classname="com.testng.runmultiplexmlfiles.RegressionTest">
+            </testcase>
+            <testcase
+                name="testFive"
+                time="0.004"
+                classname="com.testng.runmultiplexmlfiles.RegressionTest">
+            </testcase>
+</testsuite>

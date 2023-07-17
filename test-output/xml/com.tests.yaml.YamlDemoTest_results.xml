@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.033">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testOne"
+                time="0.025"
+                classname="com.tests.yaml.YamlDemoTest">
+            </testcase>
+            <testcase
+                name="testTwo"
+                time="0.008"
+                classname="com.tests.yaml.YamlDemoTest">
+            </testcase>
+</testsuite>

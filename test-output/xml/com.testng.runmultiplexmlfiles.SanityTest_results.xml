@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.013">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testFour"
+                time="0.007"
+                classname="com.testng.runmultiplexmlfiles.SanityTest">
+            </testcase>
+            <testcase
+                name="testThree"
+                time="0.006"
+                classname="com.testng.runmultiplexmlfiles.SanityTest">
+            </testcase>
+</testsuite>
