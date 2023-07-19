@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.027">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testTwo"
+                time="0.004"
+                classname="com.testng.dryrun.DryRunDemo">
+            </testcase>
+            <testcase
+                name="testOne"
+                time="0.023"
+                classname="com.testng.dryrun.DryRunDemo">
+            </testcase>
+</testsuite>
