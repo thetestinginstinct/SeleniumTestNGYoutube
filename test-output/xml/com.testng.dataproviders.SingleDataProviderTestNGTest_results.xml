@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.040">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createUser"
+                time="0.032"
+                classname="com.testng.dataproviders.SingleDataProviderTestNGTest">
+            </testcase>
+            <testcase
+                name="updateUser"
+                time="0.008"
+                classname="com.testng.dataproviders.SingleDataProviderTestNGTest">
+            </testcase>
+</testsuite>
