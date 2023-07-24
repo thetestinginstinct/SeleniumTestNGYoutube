@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.Test1">
+      <class name="com.testng.dataproviders.UseSpecificSetOfDataFromDataProviderTest">
         <methods>
-          <include name="productsHeadingTest"/>
+          <include name="updateUser"/>
         </methods>
-      </class> <!-- com.tests.Test1 -->
+      </class> <!-- com.testng.dataproviders.UseSpecificSetOfDataFromDataProviderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
