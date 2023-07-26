@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.dataproviders.UseSpecificSetOfDataFromDataProviderTest">
+      <class name="com.testng.depends.DependsOnGroupsDemo">
         <methods>
-          <include name="updateUser"/>
+          <include name="loginTest"/>
+          <include name="addToCartTest"/>
+          <include name="logoutTest"/>
+          <include name="paymentTest"/>
         </methods>
-      </class> <!-- com.testng.dataproviders.UseSpecificSetOfDataFromDataProviderTest -->
+      </class> <!-- com.testng.depends.DependsOnGroupsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

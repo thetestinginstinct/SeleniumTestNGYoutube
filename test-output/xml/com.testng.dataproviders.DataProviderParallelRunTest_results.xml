@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.101">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createUser"
+                time="0.030"
+                classname="com.testng.dataproviders.DataProviderParallelRunTest">
+            </testcase>
+            <testcase
+                name="createUser"
+                time="0.024"
+                classname="com.testng.dataproviders.DataProviderParallelRunTest">
+            </testcase>
+            <testcase
+                name="createUser"
+                time="0.021"
+                classname="com.testng.dataproviders.DataProviderParallelRunTest">
+            </testcase>
+            <testcase
+                name="createUser"
+                time="0.026"
+                classname="com.testng.dataproviders.DataProviderParallelRunTest">
+            </testcase>
+</testsuite>
