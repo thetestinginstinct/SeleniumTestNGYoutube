@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="2"
+           time="0.031">
+    <properties></properties>
+
+
+            <testcase
+                name="logOutTest"
+                time="0.0"
+                classname="com.testngconcepts.TestNGSkipExceptionDemo">
+            </testcase>
+            <testcase
+                name="forgotPasswordTest"
+                time="0.0"
+                classname="com.testngconcepts.TestNGSkipExceptionDemo">
+            </testcase>
+
+</testsuite>

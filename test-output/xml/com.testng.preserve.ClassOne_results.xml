@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.030">
+    <properties></properties>
+
+
+
+            <testcase
+                name="secondTestCase"
+                time="0.004"
+                classname="com.testng.preserve.ClassOne">
+            </testcase>
+            <testcase
+                name="firstTestCase"
+                time="0.026"
+                classname="com.testng.preserve.ClassOne">
+            </testcase>
+</testsuite>

@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.depends.DependsOnGroupsDemo">
+      <class name="com.testngconcepts.IgnoreMissingDependenciesDemo">
         <methods>
-          <include name="loginTest"/>
-          <include name="addToCartTest"/>
-          <include name="logoutTest"/>
-          <include name="paymentTest"/>
+          <include name="testTwo"/>
+          <include name="testOne"/>
         </methods>
-      </class> <!-- com.testng.depends.DependsOnGroupsDemo -->
+      </class> <!-- com.testngconcepts.IgnoreMissingDependenciesDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
