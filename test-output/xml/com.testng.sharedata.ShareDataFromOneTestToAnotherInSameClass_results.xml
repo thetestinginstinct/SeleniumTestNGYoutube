@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.054">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createUser"
+                time="0.029"
+                classname="com.testng.sharedata.ShareDataFromOneTestToAnotherInSameClass">
+            </testcase>
+            <testcase
+                name="updateUser"
+                time="0.025"
+                classname="com.testng.sharedata.ShareDataFromOneTestToAnotherInSameClass">
+            </testcase>
+</testsuite>
