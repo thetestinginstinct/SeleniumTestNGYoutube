@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testngconcepts.IgnoreMissingDependenciesDemo">
+      <class name="com.testng.listeners.CallListenerTest">
         <methods>
-          <include name="testTwo"/>
-          <include name="testOne"/>
+          <include name="testC"/>
+          <include name="testB"/>
         </methods>
-      </class> <!-- com.testngconcepts.IgnoreMissingDependenciesDemo -->
+      </class> <!-- com.testng.listeners.CallListenerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

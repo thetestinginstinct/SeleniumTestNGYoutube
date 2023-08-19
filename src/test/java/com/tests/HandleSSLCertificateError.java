@@ -13,9 +13,9 @@ public class HandleSSLCertificateError {
 
 	public static void main(String[] args) {
 
-//		handleSSLErrorInChrome();
+		handleSSLErrorInChrome();
 //		handleSSLErrorInFirefox();
-		handleSSLErrorInEdge();
+//		handleSSLErrorInEdge();
 		driver.manage().window().maximize();
 		driver.get("https://self-signed.badssl.com/");
 		
