@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="3" ignored="0" total="4" passed="0" failed="1" skipped="0">
+<testng-results retried="2" ignored="0" total="4" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-31T22:53:28 IST" name="Suite" finished-at="2023-08-31T22:53:28 IST" duration-ms="170">
+  <suite started-at="2023-09-10T22:25:28 IST" name="Suite" finished-at="2023-09-10T22:25:28 IST" duration-ms="216">
     <groups>
     </groups>
-    <test started-at="2023-08-31T22:53:28 IST" name="Test" finished-at="2023-08-31T22:53:28 IST" duration-ms="170">
+    <test started-at="2023-09-10T22:25:28 IST" name="Test" finished-at="2023-09-10T22:25:28 IST" duration-ms="216">
       <class name="com.testng.automaticretry.TestclassSample">
-        <test-method retried="true" signature="RetryTest()[pri:0, instance:com.testng.automaticretry.TestclassSample@79e4c792]" started-at="2023-08-31T22:53:28 IST" name="RetryTest" finished-at="2023-08-31T22:53:28 IST" duration-ms="24" status="SKIP">
+        <test-method signature="passTest()[pri:0, instance:com.testng.automaticretry.TestclassSample@17f9d882]" started-at="2023-09-10T22:25:28 IST" name="passTest" finished-at="2023-09-10T22:25:28 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTest -->
+        <test-method retried="true" signature="retryFailTest()[pri:0, instance:com.testng.automaticretry.TestclassSample@17f9d882]" started-at="2023-09-10T22:25:28 IST" name="retryFailTest" finished-at="2023-09-10T22:25:28 IST" duration-ms="8" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -16,7 +20,7 @@
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.fail(Assert.java:115)
-at com.testng.automaticretry.TestclassSample.RetryTest(TestclassSample.java:10)
+at com.testng.automaticretry.TestclassSample.retryFailTest(TestclassSample.java:10)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,8 +54,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RetryTest -->
-        <test-method retried="true" signature="RetryTest()[pri:0, instance:com.testng.automaticretry.TestclassSample@79e4c792]" started-at="2023-08-31T22:53:28 IST" name="RetryTest" finished-at="2023-08-31T22:53:28 IST" duration-ms="3" status="SKIP">
+        </test-method> <!-- retryFailTest -->
+        <test-method retried="true" signature="retryFailTest()[pri:0, instance:com.testng.automaticretry.TestclassSample@17f9d882]" started-at="2023-09-10T22:25:28 IST" name="retryFailTest" finished-at="2023-09-10T22:25:28 IST" duration-ms="5" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -60,7 +64,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.fail(Assert.java:115)
-at com.testng.automaticretry.TestclassSample.RetryTest(TestclassSample.java:10)
+at com.testng.automaticretry.TestclassSample.retryFailTest(TestclassSample.java:10)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,8 +98,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RetryTest -->
-        <test-method retried="true" signature="RetryTest()[pri:0, instance:com.testng.automaticretry.TestclassSample@79e4c792]" started-at="2023-08-31T22:53:28 IST" name="RetryTest" finished-at="2023-08-31T22:53:28 IST" duration-ms="6" status="SKIP">
+        </test-method> <!-- retryFailTest -->
+        <test-method signature="retryFailTest()[pri:0, instance:com.testng.automaticretry.TestclassSample@17f9d882]" started-at="2023-09-10T22:25:28 IST" name="retryFailTest" finished-at="2023-09-10T22:25:28 IST" duration-ms="5" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -104,7 +108,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.fail(Assert.java:115)
-at com.testng.automaticretry.TestclassSample.RetryTest(TestclassSample.java:10)
+at com.testng.automaticretry.TestclassSample.retryFailTest(TestclassSample.java:10)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,51 +142,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RetryTest -->
-        <test-method signature="RetryTest()[pri:0, instance:com.testng.automaticretry.TestclassSample@79e4c792]" started-at="2023-08-31T22:53:28 IST" name="RetryTest" finished-at="2023-08-31T22:53:28 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.fail(Assert.java:115)
-at com.testng.automaticretry.TestclassSample.RetryTest(TestclassSample.java:10)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RetryTest -->
+        </test-method> <!-- retryFailTest -->
       </class> <!-- com.testng.automaticretry.TestclassSample -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

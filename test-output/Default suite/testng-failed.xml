@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testng.automaticretry.TestclassSample">
         <methods>
-          <include name="RetryTest"/>
+          <include name="retryFailTest"/>
         </methods>
       </class> <!-- com.testng.automaticretry.TestclassSample -->
     </classes>
