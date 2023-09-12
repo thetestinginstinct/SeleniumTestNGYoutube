@@ -34,7 +34,7 @@ public class HeadlessBrowserTesting {
 	}
 	public void headlessFirefox()
 	{
-		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"true");
+		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_BINARY,"true");
 		FirefoxOptions firefoxOptions=new FirefoxOptions();
 		firefoxOptions.addArguments("--headless");
 		driver=new FirefoxDriver(firefoxOptions);
